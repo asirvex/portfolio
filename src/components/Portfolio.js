@@ -10,11 +10,11 @@ import CardMedia from "@material-ui/core/CardMedia";
 import Button from "@material-ui/core/Button";
 import Typography from "@material-ui/core/Typography";
 
-import project1 from "../images/html-css-javascript-lg.jpg";
-import project2 from "../images/html-css-javascript.jpg";
-import project3 from "../images/javascript-fullstack.jpg";
-import project4 from "../images/mern-stack.jpg";
-import project5 from "../images/react-redux.jpg";
+import tulaa from "../images/tulaacrm.png";
+import julla from "../images/cure.png";
+import vitea from "../images/Vitea.jpeg";
+import gradegrab from "../images/gradegrab.png";
+import todoapp from "../images/todoapp.png";
 import project6 from "../images/react.png";
 
 const useStyles = makeStyles((theme) => ({
@@ -30,51 +30,42 @@ const useStyles = makeStyles((theme) => ({
 
 const projects = [
   {
-    name: "Project 1",
-    description: `Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis
-    consequatur magni quod nesciunt necessitatibus molestiae non
-    eligendi, magnam est aliquam recusandae? Magnam soluta minus
-    iste alias sunt veritatis nisi dolores!`,
-    image: project1,
+    name: "Tulaa CRM",
+    description: `A client relationship management for Tulaa. Tulaa is a startup that 
+    provides small scale farmers with information, loans and market for their products.
+    The frameworks used include Angular and material UI`,
+    image: tulaa,
   },
   {
-    name: "Project 2",
-    description: `Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis\
-    consequatur magni quod nesciunt necessitatibus molestiae non\
-    eligendi, magnam est aliquam recusandae? Magnam soluta minus\
-    iste alias sunt veritatis nisi dolores!`,
-    image: project2,
+    name: "Julla",
+    description: `Julla is a cloud based ecommerce site that enables merchants to set up
+    online stores. The frameworks used include React JS, redux and Material UI.`,
+    image: julla,
   },
   {
-    name: "Project 3",
-    description: `Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis\
-    consequatur magni quod nesciunt necessitatibus molestiae non\
-    eligendi, magnam est aliquam recusandae? Magnam soluta minus\
-    iste alias sunt veritatis nisi dolores!`,
-    image: project3,
+    name: "Vitea Health",
+    description: `An electronic medical system that allows users to book appointments with
+    doctors, view medical records and make payments for health services. Doctors can also post patients
+    medical records and view their medical history. I made the backend using flask restful framework.`,
+    image: vitea,
   },
   {
-    name: "Project 4",
-    description: `Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis\
-    consequatur magni quod nesciunt necessitatibus molestiae non\
-    eligendi, magnam est aliquam recusandae? Magnam soluta minus\
-    iste alias sunt veritatis nisi dolores!`,
-    image: project4,
+    name: "GradeGrab",
+    description: `A platform for hiring writers and tutors to write essays or help with an 
+    assignment. It also enables the client to pay via paypal. The frameworks used include
+    React JS, Material UI`,
+    image: gradegrab,
   },
   {
-    name: "Project 5",
-    description: `Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis\
-    consequatur magni quod nesciunt necessitatibus molestiae non\
-    eligendi, magnam est aliquam recusandae? Magnam soluta minus\
-    iste alias sunt veritatis nisi dolores!`,
-    image: project5,
+    name: "Todo App",
+    description: `A android app that enables users to add, delete, view and mark done 
+    on a list of thing to be done. The framework used is flutter.`,
+    image: todoapp,
   },
   {
-    name: "Project 6",
-    description: `Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis\
-    consequatur magni quod nesciunt necessitatibus molestiae non\
-    eligendi, magnam est aliquam recusandae? Magnam soluta minus\
-    iste alias sunt veritatis nisi dolores!`,
+    name: "Vitea Lab",
+    description: `A lab web app that allows lab staff to record their findings and manage
+    their schedule. The frameworks used include React JS, redux and material UI.`,
     image: project6,
   },
 ];

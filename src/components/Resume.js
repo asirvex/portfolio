@@ -121,7 +121,7 @@ const Resume = () => {
           variant="h2"
           className={`${classes.timeLineYear} ${classes.timeLineItem}`}
         >
-          2013
+          2019
         </Typography>
         <Box component="div" className={classes.timeLineItem}>
           <Typography
@@ -129,27 +129,30 @@ const Resume = () => {
             align="center"
             className={classes.subHeading}
           >
-            web design
+            Software Engineer
           </Typography>
           <Typography variant="body1" align="center" className={classes.body1}>
-            company name where worked
+            Andela Kenya Ltd
           </Typography>
           <Typography
             variant="subtitle1"
             align="center"
             className={classes.subtitle1}
           >
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero quas
-            ipsa, laudantium totam perferendis possimus voluptatibus tenetur.
-            Quasi voluptatibus, nam vitae eaque ad, officia laboriosam
-            repudiandae, rerum necessitatibus nisi mollitia.
+            <li> I underwent rigorous training through the simulations program where we developed Authors Haven, an online blog platform where I also acquired soft-skills including teamwork, effective communication, expectation management skills. 
+              <br/>
+            Programming skills acquired include: JavaScript(React), Django-rest frameworks and API integration </li>
+          <br/> 
+          <li> I worked on Tulaa CRM as a Front-end Developer. I was an active member of a remote team to build a responsive web client for Tulaa CRM(Customer Relationship Management) using Angular framework, jasmine for testing, Chart.js for data representation and Material UI.
+          <br/>
+          I was also a team coordinator on Tulaa. I provided guidance for newer developers on the project.</li>
           </Typography>
         </Box>
         <Typography
           variant="h2"
           className={`${classes.timeLineYear} ${classes.timeLineItem}`}
         >
-          2014
+          2019 Oct
         </Typography>
         <Box component="div" className={classes.timeLineItem}>
           <Typography
@@ -157,27 +160,24 @@ const Resume = () => {
             align="center"
             className={classes.subHeading}
           >
-            html & css
+            Freelancing
           </Typography>
           <Typography variant="body1" align="center" className={classes.body1}>
-            company name where worked
+            Self Employed
           </Typography>
           <Typography
             variant="subtitle1"
             align="center"
             className={classes.subtitle1}
           >
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero quas
-            ipsa, laudantium totam perferendis possimus voluptatibus tenetur.
-            Quasi voluptatibus, nam vitae eaque ad, officia laboriosam
-            repudiandae, rerum necessitatibus nisi mollitia.
+            Worked on various projects as a freelance developer including tasks and bug fixes for various clients, coaching, and training.
           </Typography>
         </Box>
         <Typography
           variant="h2"
           className={`${classes.timeLineYear} ${classes.timeLineItem}`}
         >
-          2015
+          2020
         </Typography>
         <Box component="div" className={classes.timeLineItem}>
           <Typography
@@ -185,50 +185,24 @@ const Resume = () => {
             align="center"
             className={classes.subHeading}
           >
-            Fullstack Javascript
+            Fullstack Developer
           </Typography>
           <Typography variant="body1" align="center" className={classes.body1}>
-            company name where worked
+            Ignite Binary Ltd
           </Typography>
           <Typography
             variant="subtitle1"
             align="center"
             className={classes.subtitle1}
           >
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero quas
-            ipsa, laudantium totam perferendis possimus voluptatibus tenetur.
-            Quasi voluptatibus, nam vitae eaque ad, officia laboriosam
-            repudiandae, rerum necessitatibus nisi mollitia.
+            <li> I work as a back-end engineer on API development of an online Electronic Medical Record system using Flask rest-plus framework. </li>
+            <li>My roles include development work, testing, team schedules and proactive in coming up with solutions for various problems.
+            In addition I coordinate with DevOps engineer on the API deployment. </li>
+            Coordinate with the other team parts i.e mobile, front-end and DevOps on testing and integration of the system.
+           <li> I also work as a front-end engineer on an online lab platform using React and Material UI designs. </li>
           </Typography>
         </Box>
-        <Typography
-          variant="h2"
-          className={`${classes.timeLineYear} ${classes.timeLineItem}`}
-        >
-          2017
-        </Typography>
-        <Box component="div" className={classes.timeLineItem}>
-          <Typography
-            variant="h5"
-            align="center"
-            className={classes.subHeading}
-          >
-            Django & React
-          </Typography>
-          <Typography variant="body1" align="center" className={classes.body1}>
-            company name where worked
-          </Typography>
-          <Typography
-            variant="subtitle1"
-            align="center"
-            className={classes.subtitle1}
-          >
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero quas
-            ipsa, laudantium totam perferendis possimus voluptatibus tenetur.
-            Quasi voluptatibus, nam vitae eaque ad, officia laboriosam
-            repudiandae, rerum necessitatibus nisi mollitia.
-          </Typography>
-        </Box>
+       
       </Box>
     </Box>
   );
